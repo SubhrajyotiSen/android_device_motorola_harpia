@@ -15,8 +15,10 @@
 
 $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 
-#Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 720
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
 
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
