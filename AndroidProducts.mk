@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_harpia.mk
+    $(LOCAL_DIR)/aosp_harpia.mk
 

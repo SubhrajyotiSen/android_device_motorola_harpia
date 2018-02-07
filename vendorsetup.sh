@@ -1,1 +1,1 @@
-add_lunch_combo lineage_harpia-userdebug
+add_lunch_combo aosp_harpia-userdebug
